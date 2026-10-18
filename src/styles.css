@@ -1,0 +1,102 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+  color: #172033;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+main {
+  width: min(1100px, 92%);
+  margin: 40px auto;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+p {
+  line-height: 1.6;
+  color: #596579;
+}
+
+section,
+form {
+  background: white;
+  padding: 24px;
+  margin: 20px 0;
+  border: 1px solid #e1e7f0;
+  border-radius: 14px;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin: 14px 0 8px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: white;
+}
+
+button {
+  border: 0;
+  border-radius: 8px;
+  padding: 12px 18px;
+  background: #3157d5;
+  color: white;
+  font-weight: 600;
+}
+
+button:hover {
+  background: #2444b5;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid #93b4ff;
+  outline-offset: 2px;
+}
+
+@media (max-width: 600px) {
+  main {
+    margin: 20px auto;
+  }
+
+  section,
+  form {
+    padding: 16px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+}
